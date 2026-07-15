@@ -17,7 +17,7 @@ public class Main{
         String to=sc.nextLine().toUpperCase();
         System.out.print("Enter amount: ");
         double amount=sc.nextDouble();
-        String apiKey="63bf359c7b6e89076bb419f2";
+        String apiKey="YOUR_API_KEY";
         String url="https://v6.exchangerate-api.com/v6/"+apiKey+"/latest/"+from;
         HttpClient client=HttpClient.newHttpClient();
         HttpRequest request=HttpRequest.newBuilder()
